@@ -65,7 +65,13 @@ header ul li a:hover{
     width: 100%;
 
 }
-.banner .content .contentBox {
+.banner .content .contentBox p
+{
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: 300;
+}
+.banner .content .contentBox .btn{
     display: inline-block;
     font-size: 1.1em;
     color: #333;
