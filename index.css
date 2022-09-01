@@ -30,7 +30,7 @@ header .logo img{
 }
 header ul{
     display: flex;
-    gap: 60px;
+    gap: 0px;
 }
 header ul li{
     list-style: none;
@@ -38,7 +38,9 @@ header ul li{
 header ul li a{
     text-decoration: none;
     font-weight: 500;
-    color: rgb;
+    color: white;
+    letter-spacing: 1px;
+    padding: 30px;
 
 }
 header ul li a:hover{
@@ -125,7 +127,7 @@ header ul li a:hover{
 
 @media(max-width:991px) {
     .banner{
-        grid-template-columns: 20px 40px;
+        grid-template-columns: 1fr;
     }
     header{
         padding: 20px 40px;
